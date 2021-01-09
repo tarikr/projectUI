@@ -1,11 +1,13 @@
 name: deploy-container
 
-on: 
-    [push]:
-     paths:
-      - 'packages/container/**'
+on:
+[push]:
+   branches:
+      - master
+   paths:
+    - 'packages/container/**'
 
-defaults:
+defaults:  -
    
 
   run:
