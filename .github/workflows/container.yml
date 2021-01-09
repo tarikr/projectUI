@@ -8,13 +8,10 @@ on:
     - 'packages/container/**'
 
 defaults:  -
-   
-
-  run:
+     run:
     working-directory: packages/container
-   
-jobs:
-  build:
+   jobs:
+        build:
     runs-on: ubuntu-latest
 
     steps:
