@@ -1,9 +1,8 @@
 name: deploy-container
 
-on: [push]:
-
-
-    paths:
+on: 
+    [push]:
+     paths:
       - 'packages/container/**'
 
 defaults:
