@@ -3,7 +3,7 @@ name: deploy-container
 on: [push]
 
 defaults:
-  paths:
+  path:
       - 'packages/container/**'
 
   run:
